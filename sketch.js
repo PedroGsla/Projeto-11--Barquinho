@@ -31,6 +31,9 @@ function setup(){
 function draw(){
   background("blue");
   drawSprites();
+  if(mar.x <0){
+    mar.x = width/1,5;
+  }
 
  
 }
